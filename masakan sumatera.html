@@ -1,0 +1,128 @@
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Masakan Sumatera</title>
+  <style>
+    body {
+      font-family: "Segoe UI", Arial, sans-serif;
+      background-image: url('makanan.jpg');
+      background-size: cover;                  
+      background-repeat: no-repeat;            
+      background-attachment: fixed;            
+      margin: 0;
+      padding: 20px;
+    }
+
+    section {
+      max-width: 800px;
+      margin: auto;
+      background: rgba(255, 255, 255, 0.7);    /* putih transparan */
+      backdrop-filter: blur(5px);              /* efek blur kaca */
+      border-radius: 20px;
+      padding: 20px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    }
+
+    h2 {
+      text-align: center;
+      color: #b30000;
+      margin-bottom: 20px;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+    }
+
+    h3 {
+      color: #cc4b00;
+      text-align: center;
+    }
+
+    .card {
+      background-color: yellow;
+      padding: 15px;
+      margin-bottom: 20px;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      transition: transform 0.3s;
+    }
+
+    .card:hover {
+      transform: scale(1.03);
+    }
+
+    img {
+      width: 220px;
+      display: block;
+      margin: 15px auto;
+      border-radius: 15px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+      transition: transform 0.3s;
+    }
+
+    img:hover {
+      transform: scale(1.1);
+    }
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+      text-align: center;
+    }
+
+    ul li {
+      margin: 5px 0;
+      font-size: 15px;
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+  <section>
+    <h2>🍽️ Masakan Sumatera</h2>
+
+    <div class="card">
+      <h3>🍖 Rendang (Sumatera Barat)</h3>
+      <img src="rendang.jpg" alt="Rendang Padang">
+      <ul>
+        <li>Asal: Minangkabau (Padang)</li>
+        <li>Bahan utama: Daging sapi, santan, rempah</li>
+        <li>Proses masak: dimasak lama hingga kering</li>
+        <li>Ciri khas: berwarna coklat kehitaman dan tahan lama</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h3>🥘 Gulai</h3>
+      <img src="gulai.jpeg" alt="Gulai Padang">
+      <ul>
+        <li>Asal: Padang</li>
+        <li>Bahan: daging</li>
+        <li>Bumbu: santan, kunyit, cabai, serai, lengkuas</li>
+        <li>Ciri khas: kuah kental kuning keemasan</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h3>🐟 Pempek (Palembang)</h3>
+      <img src="pempek.jpg" alt="Pempek Palembang">
+      <ul>
+        <li>Asal: Palembang</li>
+        <li>Bahan utama: ikan tenggiri, sagu</li>
+        <li>Cara penyajian: goreng/rebus, kuah cuko</li>
+        <li>Variasi: lenjer, kapal selam, adaan, kulit</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h3>🥬 Lontong Sayur Medan</h3>
+      <img src="lontong.webp" alt="Lontong Sayur Medan">
+      <ul>
+        <li>Asal: Medan</li>
+        <li>Bahan utama: lontong, sayur labu siam, kuah santan</li>
+        <li>Lauk tambahan: telur balado, sambal teri kacang</li>
+        <li>Ciri khas: kaya rempah, gurih pedas ringan</li>
+      </ul>
+    </div>
+  </section>
+</body>
+</html>

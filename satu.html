@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      background: url("makanan.jpg");
+      background-size: cover;
+      background-position: center;
+      margin: 0;
+      display: flex;
+      justify-content: center;   /* tengahkan secara horizontal */
+      align-items: center;       /* tengahkan secara vertikal */
+      height: 100vh;             /* penuh satu layar */
+    }
+    .judul {
+      font-size: 36px;
+      font-weight: bold;
+      text-align: center;
+      font-family: 'Georgia', serif;
+      animation: fadeColor 5s infinite, zigzag 2s infinite alternate;
+      display: inline-block;
+    }
+    @keyframes fadeColor {
+      0%   { color: #FF6F61; opacity: 0.3; }
+      25%  { color: #FF8C42; opacity: 1; }
+      50%  { color: #FFD700; opacity: 0.7; }
+      75%  { color: #4CAF50; opacity: 1; }
+      100% { color: #1E90FF; opacity: 0.3; }
+    }
+    @keyframes zigzag {
+      0% { transform: translateX(0); }
+      25% { transform: translateX(20px); }
+      50% { transform: translateX(-20px); }
+      75% { transform: translateX(20px); }
+      100% { transform: translateX(0); }
+    }
+  </style>
+</head>
+<body>
+  <div class="judul">🍽️ Macam-Macam Masakan Nusantara 🍛</div>
+</body>
+</html>

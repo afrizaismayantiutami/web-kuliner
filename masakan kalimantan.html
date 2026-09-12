@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Masakan Kalimantan</title>
+  <style>
+     body {
+      font-family: "Segoe UI", Arial, sans-serif;
+      background-image: url('makanan.jpg');
+      background-size: cover;                  
+      background-repeat: no-repeat;            
+      background-attachment: fixed;            
+      margin: 0;
+      padding: 20px;
+    }
+
+    section {
+      max-width: 800px;
+      margin: auto;
+      background: rgba(255, 255, 255, 0.7);    /* putih transparan */
+      backdrop-filter: blur(5px);              /* efek blur kaca */
+      border-radius: 20px;
+      padding: 20px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    }
+    h2 { text-align: center; color: #00796b; margin-bottom: 20px; text-transform: uppercase; letter-spacing: 2px; }
+    h3 { color: #009688; text-align: center; }
+    .card { background-color: yellow; padding: 15px; margin-bottom: 20px; border-radius: 15px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); transition: transform 0.3s; }
+    .card:hover { transform: scale(1.03); }
+    img { width: 220px; display: block; margin: 15px auto; border-radius: 15px; box-shadow: 0 2px 8px rgba(0,0,0,0.2); transition: transform 0.3s; }
+    img:hover { transform: scale(1.1); }
+    ul { list-style-type: none; padding: 0; text-align: center; }
+    ul li { margin: 5px 0; font-size: 15px; }
+  </style>
+</head>
+<body>
+  <section>
+    <h2>🍲 Masakan Kalimantan</h2>
+
+    <div class="card">
+      <h3>🐟 Ikan Baung Bakar</h3>
+      <img src="ikan baung bakar.jpeg" alt="Ikan Baung Bakar">
+      <ul>
+        <li>Asal: Kalimantan Tengah</li>
+        <li>Bahan utama: ikan baung segar</li>
+        <li>Bumbu: bawang merah, bawang putih, kecap</li>
+        <li>Ciri khas: aroma bakaran khas sungai Kalimantan</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h3>🥘 Soto Banjar</h3>
+      <img src="soto banjar.jpg" alt="Soto Banjar">
+      <ul>
+        <li>Asal: Kalimantan Selatan</li>
+        <li>Bahan utama: ayam, bihun</li>
+        <li>Bumbu: kayu manis, kapulaga, bawang</li>
+        <li>Ciri khas: kuah bening harum rempah</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h3>🍛 Nasi Kuning Banjar</h3>
+      <img src="nasi kuning manado.jpeg" alt="Nasi Kuning Banjar">
+      <ul>
+        <li>Asal: Kalimantan Selatan</li>
+        <li>Bahan: beras, santan, kunyit</li>
+        <li>Lauk: ayam, telur, serundeng</li>
+        <li>Ciri khas: warna kuning cerah, gurih</li>
+      </ul>
+    </div>
+  </section>
+</body>
+</html>

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Masakan Jawa</title>
+  <style>
+    body {
+      font-family: "Segoe UI", Arial, sans-serif;
+      background-image: url('makanan.jpg');
+      background-size: cover;                  
+      background-repeat: no-repeat;            
+      background-attachment: fixed;            
+      margin: 0;
+      padding: 20px;
+    }
+
+
+    section {
+      max-width: 800px;
+      margin: auto;
+      background: rgba(255, 255, 255, 0.7);    /* putih transparan */
+      backdrop-filter: blur(5px);              /* efek blur kaca */
+      border-radius: 20px;
+      padding: 20px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    }
+ 
+
+    h2 { text-align: center; color: #1b5e20; margin-bottom: 20px; text-transform: uppercase; letter-spacing: 2px; }
+    h3 { color: #2e7d32; text-align: center; }
+    .card {
+      background-color: yellow;
+      padding: 15px;
+      margin-bottom: 20px;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      transition: transform 0.3s;
+    }
+    .card:hover { transform: scale(1.03); }
+    img {
+      width: 220px;
+      display: block;
+      margin: 15px auto;
+      border-radius: 15px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+      transition: transform 0.3s;
+    }
+    img:hover { transform: scale(1.1); }
+    ul { list-style-type: none; padding: 0; text-align: center; }
+    ul li { margin: 5px 0; font-size: 15px; }
+  </style>
+</head>
+<body>
+  <section>
+    <h2>🍜 Masakan Jawa</h2>
+
+    <div class="card">
+      <h3>🍜 Soto Ayam Lamongan</h3>
+      <img src="soto lamongan.avif" alt="Soto Ayam Lamongan">
+      <ul>
+        <li>Asal: Jawa Timur</li>
+        <li>Bahan utama: ayam, soun, telur rebus</li>
+        <li>Bumbu: bawang putih, kunyit, serai</li>
+        <li>Ciri khas: kuah bening gurih, taburan koya</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h3>🍢 Sate Ayam Madura</h3>
+      <img src="sate ayam madura.jpeg" alt="Sate Ayam Madura">
+      <ul>
+        <li>Asal: Madura, Jawa Timur</li>
+        <li>Bahan: ayam, tusuk sate bambu</li>
+        <li>Saus: kacang tanah halus, kecap manis</li>
+        <li>Ciri khas: aroma bakaran harum dan saus kacang kental</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h3>🍛 Gudeg Jogja</h3>
+      <img src="gudeg.jpg" alt="Gudeg Jogja">
+      <ul>
+        <li>Asal: Yogyakarta</li>
+        <li>Bahan utama: nangka muda, telur, ayam</li>
+        <li>Bumbu: santan, gula jawa, rempah</li>
+        <li>Ciri khas: rasa manis legit, disajikan dengan sambal krecek</li>
+      </ul>
+    </div>
+  </section>
+</body>
+</html>
